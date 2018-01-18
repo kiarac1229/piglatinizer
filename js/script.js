@@ -5,19 +5,27 @@
 // CREATE THE FUNCTIONS BELOW
 
 // Document Ready Function. All of your jQuery should go in here. 
-$( document ).ready(function() {
+$(document).ready(function() {
+    function Vowels(word){
+    return word + "ay";  
+ 
+    }
+    
+    $("button").click(function(){
+    var message = $("input").val();
+    var PLmessage = Vowels(message);
+    $("#result").text(PLmessage);
+});
+
+});
+
+var splitter = PLmessage.split(' ');
   
-$("#choice1").click(function() {
-    $("#result").text("ay"); 
-});
 
-
-});
 
 
 // Create the wordToPigLatin function that takes a word as a parameter and returns a transfromed word. 
 
-function();
 
 
 
