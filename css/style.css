@@ -1,16 +1,30 @@
 body{
     background-color:pink;
+    background-image:url("https://images-na.ssl-images-amazon.com/images/I/61fo5liTgGL._SL210_QL95_BG0,0,0,0_FMpng_.png");
 }
 
 h1{
     text-align:center;
-    font-size:60px;
+    font-size:150px;
     font-family: 'Sedgwick Ave Display', cursive;
+     color:#008080;
 
 }
-
+p{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size:40px;
+    text-align:center;
+   
+}
 
 .container{
-    margin: auto;
-    width: 50%;
+    margin: 0 auto;
+    width: 60%;
 }
+
+#result{
+    font-size:60px;
+    color:#008080;
+}
+
+
