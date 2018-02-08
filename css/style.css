@@ -25,6 +25,16 @@ p{
 #result{
     font-size:60px;
     color:#008080;
+    text-align:center;
 }
 
+#userinput{
+    text-align:center;
+
+}
+
+.center{
+    text-align:center;
+    margin:0 auto;
+}
 
